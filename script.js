@@ -9,7 +9,7 @@ const src = [
 ScrollTrigger.create({
   trigger: ".sections",
   pin: ".tooltip",
-  start: "top 40%",
+  start: "top 70%",
   end: "bottom 55%",
 });
 

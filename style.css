@@ -68,14 +68,14 @@ body {
 
 .tooltip {
   background: #fff;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: absolute;
-  margin-top: -32rem;
+  margin-top: -62rem;
   margin-left: -67rem;
   border-radius: 50%;
   text-transform: uppercase;
