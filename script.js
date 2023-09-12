@@ -32,3 +32,18 @@ sections.forEach((section, index) => {
     },
   });
 });
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from(".content h2", {
+  duration: 1,
+  autoAlpha: 0,
+  y: 100,
+  scale: 0.5,
+  scrollTrigger: {
+    trigger: ".content h2",
+    start: "top 60%",
+    end: "bottom 40%",
+    scrub: true,
+  },
+});
