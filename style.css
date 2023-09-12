@@ -14,7 +14,7 @@ body {
   /* font-family: "Urbanist", sans-serif; */
   font-family: "Space Grotesk", sans-serif;
 }
-
+/* 
 .overlay {
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@ body {
   height: 100vh;
   background: rgba(0, 0, 0, 0.3);
   z-index: 1;
-}
+} */
 
 .home {
   width: 100%;
@@ -75,21 +75,17 @@ body {
   align-items: center;
   flex-direction: column;
   position: absolute;
-  margin-top: 2rem;
-  margin-left: 7rem;
+  margin-top: -32rem;
+  margin-left: -67rem;
   border-radius: 50%;
   text-transform: uppercase;
   z-index: 999;
 }
 .tooltip img {
   width: 50%;
-  height: 50%;
+  height: 60%;
   object-fit: cover;
   object-position: center;
-}
-
-.sections {
-  z-index: 1;
 }
 
 .content {
